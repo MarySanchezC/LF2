@@ -15,7 +15,7 @@
       <div class="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form">
-            <h2 class="title">¿Alguna vez a sufrido una lesion renal aguda?</h2>
+            <h2 class="title">¿Ha tenido perdida de la función renal de moderada a grave (Etapa 3) ?</h2>
     
           
             
@@ -25,18 +25,18 @@
                 </div>
 
                 <div class="option">
-                    <input type="radio" id="opcion2" name="opciones" value="0,5">
+                    <input type="radio" id="opcion2" name="opciones" value="1">
                     <label for="opcion2">Si</label>
                 </div>
                 
-                
+                 
 
            
           
             
               <br>
               <br>
-          <a class="siguiente boton-rosado" id="pregunta5" href="Question7.html" onclick="return validateForm()"><span class="text">Siguiente</span></a>
+          <a class="siguiente boton-rosado" id="pregunta13" href="Question15.html" onclick="return validateForm()"><span class="text">Siguiente</span></a>
 
           </form>
           
@@ -78,7 +78,7 @@
           }
 
           var puntos = parseFloat(radios[i].value);
-          localStorage.setItem('pregunta5', puntos);
+          localStorage.setItem('pregunta13', puntos);
 
           return true;
       }

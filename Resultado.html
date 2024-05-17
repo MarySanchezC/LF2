@@ -12,7 +12,7 @@
         <div class="forms-container">
             <div class="signin-signup">
                 <form action="#" class="sign-in-form">
-                    <h2 class="title">Su riesgo de prensentar enfermedad renal es:</h2>
+                    <h2 class="title">Su riesgo de presentar enfermedad renal crónica ERC es:</h2>
                     <h2 id="resultado" style="width: 300px"></h2>
                 
                 </form>
@@ -38,6 +38,12 @@
         var pregunta8 = parseFloat(localStorage.getItem('pregunta8'));
         var pregunta9 = parseFloat(localStorage.getItem('pregunta9'));
         var pregunta10 = parseFloat(localStorage.getItem('pregunta10'));
+        var pregunta11 = parseFloat(localStorage.getItem('pregunta11'));
+        var pregunta12 = parseFloat(localStorage.getItem('pregunta12'));
+        var pregunta13 = parseFloat(localStorage.getItem('pregunta13'));
+        var pregunta14 = parseFloat(localStorage.getItem('pregunta14'));
+        var pregunta15 = parseFloat(localStorage.getItem('pregunta15'));
+        var pregunta16 = parseFloat(localStorage.getItem('pregunta16'));
 
         // Verificar si las variables son null y asignarles un valor predeterminado
         pregunta1 = pregunta1 || 0;
@@ -50,8 +56,14 @@
         pregunta8 = pregunta8 || 0;
         pregunta9 = pregunta9 || 0;
         pregunta10 = pregunta10 || 0;
+        pregunta11 = pregunta11 || 0;
+        pregunta12 = pregunta12 || 0;
+        pregunta13 = pregunta13 || 0;
+        pregunta14 = pregunta14 || 0;
+        pregunta15 = pregunta15 || 0;
+        pregunta16 = pregunta16 || 0;
 
-        var sumaTotal = pregunta1 + pregunta2 + pregunta3 + pregunta4 + pregunta5 + pregunta6 + pregunta7 + pregunta8 + pregunta9 + pregunta10;
+        var sumaTotal = pregunta1 + pregunta2 + pregunta3 + pregunta4 + pregunta5 + pregunta6 + pregunta7 + pregunta8 + pregunta9 + pregunta10+pregunta11+pregunta12+pregunta13+pregunta14+pregunta15+pregunta16;
         var interpretacion = "";
 
         if (sumaTotal >= 0 && sumaTotal <= 1) {
