@@ -47,7 +47,7 @@ signInForm.addEventListener("submit", (event) => {
         window.location.href = "Question1.html";
     } else {
         // Aquí colocas la lógica para el registro
-        console.log("Debe acpetar nuestras politicas antes de ingresar.     ");
+        console.log("Debe aceptar nuestras politicas antes de ingresar.     ");
     }
 });
 

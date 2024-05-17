@@ -20,13 +20,13 @@ body {
     text-align: center;
 }
 
-h1 {
+h3 {
     color: #FF4081; /* Rosa intenso */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .option {
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .option input[type="radio"] {
